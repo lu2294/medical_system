@@ -1,0 +1,22 @@
+.main-app {
+  height: 100%;
+  width: 100%;
+}
+
+.subapp-viewport {
+  height: 100%;
+}
+
+.subapp-viewport>div {
+  height: 100%;
+}
+
+.main-content {
+  height: 100%;
+}
+.child-component-loading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}

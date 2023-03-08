@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
+  <link rel="shortcut icon" href="/favicon.png">
+  <title>信池统一安全管理平台</title>
+  <style>
+    #main-root {
+      height: 100%;
+      min-width: 1116px;
+    }
+
+    @media screen and (max-width: 1116px) {
+      html {
+        font-size: calc(1116px / 96);
+      }
+    }
+
+    @media screen and (min-width: 1117px) {
+      html {
+        font-size: calc(100vw / 96);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 两个ID，上面挂载主应用页面，下面挂载子应用APP -->
+  <div id="main-root"></div>
+</body>
+<script src="/config.js"></script>
+
+</html>

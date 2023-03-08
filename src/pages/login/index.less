@@ -1,0 +1,389 @@
+.main-login {
+    font-family     : Microsoft Yahei, Open Sans, sans-serif;
+    background-size : cover;
+    background-color: #f2f8ff;
+    height          : 100%;
+    width           : 100%;
+
+    .container {
+        position     : absolute;
+        top          : 92px;
+        background   : #ffffff;
+        border-radius: 7.59px;
+        width        : 812px;
+        height       : 556px;
+        margin       : auto;
+        left         : 50%;
+        z-index      : 1;
+        margin-left  : -532px;
+        padding-right: 15px;
+        padding-left : 15px;
+
+        .ais-login-lefticon {
+            margin-left: 60px;
+            margin-top : 42px;
+            // background : url('../../assets/images/login/login1111.jpg') no-repeat;
+            width      : 116px;
+            height     : 30px;
+        }
+
+        .ais-login-leftlogo {
+            margin-left: 60px;
+            margin-top : 20px;
+            width      : 340px;
+
+            h1 {
+                font-size     : 29px;
+                color         : #333333;
+                letter-spacing: 1.6px;
+                text-align    : left;
+                margin-top    : 40px;
+            }
+        }
+
+        .ais-login-leftform {
+            margin-left  : 60px;
+            width        : 321px;
+            // margin-top: 75px;
+            margin-top   : 50px;
+
+            .ant-select-selection-placeholder {
+                padding-left: 9px;
+            }
+
+            .login-user-select {
+                width: 288px;
+
+                .ant-select-arrow {
+                    position   : absolute;
+                    left       : 0;
+                    font-size  : 15px;
+                    margin-left: 22px;
+                    top        : 45%;
+                }
+
+                .ant-select-selector {
+                    box-shadow   : 0 2px 8px 0 rgba(169, 204, 234, 0.50);
+                    border-radius: 25px;
+                    padding-left : 42px !important;
+                }
+            }
+
+            .login-user-name {
+                font-family        : FontAwesome, "Microsoft Yahei", 'Open Sans', sans-serif;
+                background         : #ffffff;
+                box-shadow         : 0 2px 8px 0 rgba(169, 204, 234, 0.50);
+                text-indent        : 10px;
+                border-radius      : 25px;
+                width              : 288px;
+                // height: 40px;
+                // background-color: #fff;
+                // font-size: 14px;
+                // text-align: left;
+                border             : 1px solid #ebedf8;
+
+                input {
+                    background-color: #fff !important
+                }
+            }
+
+            .login-button {
+                background-image: linear-gradient(-270deg, #fe9240 0%, #fe4c50 100%);
+                border-radius   : 25px;
+                width           : 288px;
+                height          : 40px;
+                border          : 1px solid #ebedf8;
+                font-size       : 16px;
+                color           : #ffffff;
+                letter-spacing  : 0;
+                text-align      : center;
+            }
+        }
+    }
+
+    .login-right {
+        position  : absolute;
+        top       : 67px;
+        width     : 532px;
+        height    : 604px;
+        left      : 50%;
+        background: url('../../assets/images/loginbg.png') no-repeat;
+        z-index   : 1;
+    }
+
+    .login-bottom {
+        background : transparent;
+        position   : absolute;
+        width      : 912px;
+        height     : 150px;
+        // z-index: -1;
+        left       : 50%;
+        top        : 590px;
+        margin-left: -456px;
+
+        div {
+            opacity      : 0.22;
+            background   : #0371e6;
+            border-radius: 7.59px;
+            width        : 812px;
+            height       : 50px;
+            margin-left  : 50px;
+            box-shadow   : 0px 0px 200px 80px #0371e6;
+        }
+    }
+
+    .site-form-item-icon {
+        color: rgba(0, 0, 0, 0.25) !important;
+    }
+
+    .login-error {
+        width           : 295px;
+        border-radius   : 25px;
+        background-color: #fff;
+        border          : 0;
+        margin-bottom   : 20px;
+
+        .ant-alert-message {
+            font-size: 14px;
+            color    : #a94442;
+        }
+    }
+
+    .ant-form-item-explain.ant-form-item-explain-error {
+        padding: 2px 15px;
+        color  : #a94442 !important
+    }
+}
+
+.mt17 {
+    margin-top: 17px;
+}
+
+.login-edit-psd {
+    .ant-modal-header {
+        text-align: center;
+    }
+}
+
+.login-agree-obtain-modal {
+    .login-agree-obtain {
+        max-height: 600px;
+        overflow-y: auto;
+
+        .ais-error-txt {
+            color: #f27d79;
+        }
+
+        .profile-title {
+            height          : 40px;
+            border-top      : solid 1px #f0f1f4;
+            border-bottom   : solid 1px #f0f1f4;
+            background-color: #fafbff;
+            padding         : 8px 0 0 24px;
+            font-size       : 14px;
+            font-weight     : 600;
+            font-stretch    : normal;
+            font-style      : normal;
+            line-height     : normal;
+            letter-spacing  : normal;
+            color           : #53627c;
+            margin-bottom   : 12px;
+        }
+
+        .ais-about-p {
+            margin-bottom: 24px;
+        }
+
+        .ais-about-second-p {
+            margin-bottom: 12px;
+        }
+
+        .ais-about-second-desc-p {
+            margin-bottom: 12px;
+            margin-left  : 22px;
+        }
+
+        .ais-about-text-indent {
+            text-indent: 20px;
+        }
+    }
+}
+.renderTokenFooter {
+    .question_icon_style {
+        width: 14px;
+        height: 14px;
+        display: inline-block;
+        background-image: url(./../../assets//images/login/question.svg);
+        background-size: 100% 100%;
+        margin-right: 5px;
+        line-height: 14px;
+        position: relative;
+        top: 2px;
+    }
+}
+.renderTokenFooter-tooltip {
+    background: #FFFFFF;
+    .renderTokenFooter-tooltip-parent {
+        // margin-top: 10px;
+        .renderTokenFooter-tooltip-title {
+            display: inline-block;
+            font-size: 12px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #FFFFFF;
+            width: 16px;
+            height: 16px;
+            background-color: #4E79F2;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .renderTokenFooter-tooltip-content {
+            display: inline-block;
+            position: relative;
+            margin-left: 22px;
+            bottom: 23px;
+        }
+    }
+}
+
+
+._two_factor {
+    margin-left: 20px;
+    ._two_factor_content_token_type {
+      display          : flex;
+      justify-content  : flex-start;
+      align-items      : center;
+
+      ._two_factor_content_token_type_title {
+        // width          : 100%;
+        display        : inline-block;
+        vertical-align : top;
+        justify-content: space-between;
+        width          : 100px;
+        height         : 22px;
+        font-size      : 14px;
+        font-family    : PingFangSC-Regular, PingFang SC;
+        font-weight    : 400;
+        color          : rgba(10,31,68,0.7);
+        line-height    : 22px;
+      }
+
+      ._two_factor_content_token_type_value {
+        width          : 100%;
+        display        : inline-flex;
+        vertical-align : top;
+        justify-content: space-between
+      }
+
+    }
+
+    ._two_factor_content_activiation_code {
+      display          : flex;
+      justify-content  : flex-start;
+      align-items      : center;
+      margin-left      : 14px;
+      margin-top       : 20px;
+      ._two_factor_content_activiation_code_title {
+        display        : inline-block;
+        vertical-align : top;
+        justify-content: space-between;
+        width          : 74px;
+        height         : 22px;
+        font-size      : 14px;
+        font-family    : PingFangSC-Regular, PingFang SC;
+        font-weight    : 400;
+        color          : rgba(10,31,68,0.7);
+        line-height    : 22px;
+        // display        : inline-flex;
+        // vertical-align : top;
+        // justify-content: space-between;
+      }
+
+      ._two_factor_content_activiation_code_value {
+        display         : inline-block;
+        // width           : 600px;
+      }
+
+    }
+
+    ._two_factor_content_qrcode {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      margin-top: 20px;
+      margin-left: 128px;
+    }
+  }
+  ._two_factor_alert {
+    width: 20px;
+    height: 20px;
+    background-image: url(../../assets//images/login/alert-warning.svg);
+    background-size: 100% 100%;
+}
+.alert-text {
+    .ant-alert-message{
+        font-size: 14px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #FFFFFF;
+        line-height: 22px;
+    }
+    .ant-alert-close-icon .anticon-close {
+        color: #fff;
+    }
+}
+._two_factor_content_qrcode_second {
+    ._two_factor_content_qrcode_second_title {
+        display: inline-block;
+        width: 56px;
+        height: 22px;
+        font-size: 14px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(10,31,68,0.7);
+        line-height: 22px;
+    }
+    ._two_factor_content_qrcode_second_value {
+        display: inline-block;
+        width: 300px;
+        height: 40px;
+        background: #FFFFFF;
+        border-radius: 4px;
+    }
+
+  
+}
+._two_factor_content_qrcode_second_message {
+    width: 210px;
+    height: 20px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(10,31,68,0.3);
+    line-height: 20px;
+    margin-left: 56px;
+    margin-top: 14px;
+}
+.activeCode-button-style {
+    // background-image: linear-gradient(-270deg, #fe9240 0%, #fe4c50 100%);
+    border-radius   : 25px;
+    width           : 102px;
+    background      : #0AC049;
+    border-radius   : 2px;
+    font-size       : 14px;
+    font-family     : PingFangSC-Regular, PingFang SC;
+    font-weight     : 400;
+    color           : #FFFFFF;
+    line-height     : 22px;
+
+    &:hover {
+        background: #0AC049;
+        border-color: #0AC049;
+    }
+    &:focus {
+        background: #0AC049;
+        border-color: #0AC049;
+        opacity: 0.8;
+    }
+}

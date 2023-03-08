@@ -1,0 +1,22 @@
+.remMixin() {
+  @functions: ~`(function() { 
+    var rem = 20;
+    // px 转 rem
+    this.px2rem = function(size) {
+      return (size / rem) + 'rem';
+    };
+  })()`;
+}
+.remMixin();
+
+.xdr_ml12{
+  margin-left: ~`px2rem(12)`;
+}
+.xdr_input_border{
+  .ant-input-affix-wrapper{
+    border-radius: 0 !important;
+  }
+  .ant-btn{
+    border-radius: 0 !important;
+  }
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <defs>
+        <linearGradient x1="0.671984266%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FAA238" offset="0%"></stop>
+            <stop stop-color="#F98D00" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="72.7060029%" y1="100%" x2="72.7060029%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#78ACFF" offset="0%"></stop>
+            <stop stop-color="#4D7BFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M33,30.6666667 C33,26.9847683 30.5375661,24 27.5,24 L16.5,24 C13.4624339,24 11,26.9847683 11,30.6666667 L11,31.917037 C11,33.0666667 11.77,34 12.7184444,34 L31.2815556,34 C32.23,34 33,33.0666667 33,31.917037 L33,30.6666667 Z M22,22 C18.6862915,22 16,19.3137085 16,16 C16,12.6862915 18.6862915,10 22,10 C25.3137085,10 28,12.6862915 28,16 C28,19.3137085 25.3137085,22 22,22 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="普通用户登录" transform="translate(-308.000000, -521.000000)">
+            <g id="Group-3-Copy" transform="translate(-0.000000, 0.000000)">
+                <g id="Group-5" transform="translate(237.000000, 142.000000)">
+                    <g id="table/邮箱设置/收件人列表/表头-copy-4" transform="translate(0.000000, 366.000000)">
+                        <g id="icon/角色/超级管理员" transform="translate(71.000000, 13.000000)">
+                            <g id="Group-6" fill="#ECF1FF" fill-rule="nonzero">
+                                <circle id="Oval" cx="22" cy="22" r="22"></circle>
+                            </g>
+                            <g id="蒙版">
+                                <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                                <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

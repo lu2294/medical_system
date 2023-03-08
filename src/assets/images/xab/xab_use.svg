@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="23px" viewBox="0 0 85 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 6</title>
+    <g id="UAP运维中心" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="XDR安全运营平台/门户运营" transform="translate(-143.000000, -525.000000)">
+            <g id="编组-6" transform="translate(143.000000, 525.250000)">
+                <path d="M13.80119,1.75 L77.8272149,1.75 C80.0363539,1.75 81.8272149,3.540861 81.8272149,5.75 C81.8272149,6.41348467 81.6621738,7.06654939 81.3469567,7.65037307 L74.3280186,20.6503731 C73.629674,21.9437994 72.2781873,22.75 70.8082768,22.75 L6.72944942,22.75 C4.52031042,22.75 2.72944942,20.959139 2.72944942,18.75 C2.72944942,18.082264 2.89661135,17.4251514 3.21569137,16.8385858 L10.2874319,3.83858575 C10.9876821,2.55131403 12.3357826,1.75 13.80119,1.75 Z" id="矩形" fill="#17CD57"></path>
+                <text id="免费体检" font-family="PingFangSC-Semibold, PingFang SC" font-size="14" font-weight="500" line-spacing="24" fill="#FFFFFF">
+                    <tspan x="13.6486561" y="15">免费体检</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

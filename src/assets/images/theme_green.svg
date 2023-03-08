@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="100px" viewBox="0 0 160 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>绿</title>
+    <g id="系统设置" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="界面配置" transform="translate(-444.000000, -571.000000)">
+            <g id="主题颜色" transform="translate(236.000000, 505.644444)">
+                <g id="绿" transform="translate(208.000000, 65.355556)">
+                    <g id="页面" transform="translate(1.000000, 0.990099)">
+                        <path d="M4,0 L154,0 C156.209139,-4.05812251e-16 158,1.790861 158,4 L158,23.7623762 L158,23.7623762 L0,23.7623762 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="矩形" fill="#006F6B"></path>
+                        <rect id="矩形" fill="#F4F6F9" x="0" y="23.7623762" width="35" height="47.5247525"></rect>
+                        <rect id="矩形" fill="#D7EAEA" x="0" y="23.7623762" width="35" height="11.8811881"></rect>
+                        <rect id="矩形" fill="#006F6B" x="0" y="23.7623762" width="1" height="11.8811881"></rect>
+                        <rect id="矩形备份" fill-opacity="0.303996906" fill="#53627C" x="43" y="31.6831683" width="106" height="6.93069307"></rect>
+                        <rect id="矩形备份-2" fill-opacity="0.303996906" fill="#53627C" x="43" y="44.5544554" width="106" height="6.93069307"></rect>
+                        <rect id="矩形备份-3" fill-opacity="0.303996906" fill="#53627C" x="43" y="57.4257426" width="106" height="6.93069307"></rect>
+                    </g>
+                    <rect id="矩形" stroke="#E1E4E8" x="0.5" y="0.5" width="159" height="98.009901" rx="4"></rect>
+                    <path d="M159.5,72.7772277 L159.5,96 C159.5,96.9664983 159.108249,97.8414983 158.474874,98.4748737 C157.841498,99.1082492 156.966498,99.5 156,99.5 L156,99.5 L4,99.5 C3.03350169,99.5 2.15850169,99.1082492 1.52512627,98.4748737 C0.891750844,97.8414983 0.5,96.9664983 0.5,96 L0.5,96 L0.5,72.7772277 L159.5,72.7772277 Z" id="矩形" stroke="#E1E4E8" fill="#ECF1FF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
